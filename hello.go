@@ -1,7 +1,9 @@
 package main 
 
-import "fmt"
+import ("fmt"
+		"github.com/kostasgeo/stringutil"
+		)
 
 func main() {
-	fmt.Println("Hello, World!\n")
+	fmt.Println(stringutil.Reverse("!oG ,olleH"))
 }
